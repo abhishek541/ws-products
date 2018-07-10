@@ -1,0 +1,109 @@
+body {
+  font-family:       "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight:       bold;
+  margin:            20px 20px auto;
+}
+
+main {
+  width: 95%;
+  margin: auto;
+}
+
+.product-name {
+  font-size: 14px;
+  background: #EAEAEA;
+  height: 38px;
+  line-height: 38px;
+  padding-left: 4%;
+  color: #000;
+  opacity: 0.8;
+}
+
+.product-price {
+  position: absolute;
+  top: 78%;
+  left: 5%;
+}
+
+.indicator-div {
+  position: absolute;
+  right: 0;
+  bottom: 0px;
+  left: 0;
+  z-index: 15;
+  height: 30px;
+  background: #4C4A4A;
+  opacity: 0.6;
+}
+
+.indicators {
+  position: absolute;
+  right: 0;
+  bottom: -8px;
+  left: 0;
+  z-index: 15;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-left: 0;
+  list-style: none;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.indicators li {
+  position: relative;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  width: 12px;
+  height: 12px;
+  margin-right: 8px;
+  border-radius: 6px;
+  margin-left: 8px;
+  border: solid 1.5px #fff;
+  text-indent: -999px;
+  background-color: #444444;
+}
+
+.indicators .active {
+    background-color: #fff;
+}
+
+.btn-close {
+  position: absolute;
+  top: -24px;
+  right: 0px;
+  z-index: 99;
+  float: right;
+  font-size: 3.5rem;
+  color: #000;
+  opacity: 0.7;
+}
+
+.btn-close:focus {
+  outline: none;
+}
+
+.btn-close:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+button.btn-close {
+  padding: 0;
+  background-color: transparent;
+  border: 0;
+  -webkit-appearance: none;
+}
+
+.control {
+  width: 36px;
+  height: 36px;
+  border-radius: 18px;
+  background: #444444;
+  }
+
+  .control-dim {
+    width: 23px !important;
+    height: 35px !important;
+  }
